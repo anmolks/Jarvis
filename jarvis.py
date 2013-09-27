@@ -15,7 +15,6 @@ k.loadBrain('data/jarvis.brn')
 try: 
 	f = open('data/jarvis.cred')
 except IOError:
-	self.speaker.say("Error: chatbot configuration file not found.")
 	sys.exit(1)
 
 bot_predicates = f.readlines()
