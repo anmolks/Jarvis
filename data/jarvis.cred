@@ -1,6 +1,3 @@
-# AI_config.txt
-# stores bot predicates for conversational intelligence.
-
 age::1
 baseballteam::Mets
 birthday::September 6
